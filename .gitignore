@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local data (keep group-specific raw CSV bytes out of public Git)
+data/raw/*.csv
+!data/raw/*.csv.dvc
+
+# DVC cache
+.dvc/cache/
+.dvc/tmp/
+
+# Local outputs
+mlruns/
+mlartifacts/
+logs/
+*.log
+.ipynb_checkpoints/
+.DS_Store
+
+# NOTE: The handbook explicitly requires committing mlflow.db,
+# models/model.joblib and predictions/holdout_predictions.csv.
