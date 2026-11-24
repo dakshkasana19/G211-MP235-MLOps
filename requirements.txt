@@ -1,0 +1,25 @@
+# Group G211 - MP235 (Cold Storage Spoilage Prediction)
+# Shared requirements configuration
+
+# Core testing framework
+pytest>=8.0.0
+
+# Numerical, array, and data manipulation (Daksh - monitoring / PSI foundation)
+numpy>=1.24.0
+pandas>=2.0.0
+
+# --- Outstanding Teammate Integration Requirements ---
+# API & Serving (Deepanshu - Day 1/2 handoff):
+# fastapi
+# uvicorn
+# pydantic
+# httpx (for TestClient)
+
+# ML & Training (Saivats - Day 1/2 handoff):
+# scikit-learn
+# joblib
+# mlflow
+# pyyaml
+
+# Data Engineering & DVC (Pradyumna - Day 1/2 handoff):
+# dvc
