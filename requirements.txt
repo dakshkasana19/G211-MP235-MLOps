@@ -8,18 +8,18 @@ pytest>=8.0.0
 numpy>=1.24.0
 pandas>=2.0.0
 
+# Model training, serialization, and experiment tracking
+PyYAML==6.0.3
+scikit-learn==1.8.0
+joblib==1.5.3
+mlflow==3.18.0
+
 # --- Outstanding Teammate Integration Requirements ---
 # API & Serving (Deepanshu - Day 1/2 handoff):
 # fastapi
 # uvicorn
 # pydantic
 # httpx (for TestClient)
-
-# ML & Training (Saivats - Day 1/2 handoff):
-# scikit-learn
-# joblib
-# mlflow
-# pyyaml
 
 # Data Engineering & DVC (Pradyumna - Day 1/2 handoff):
 # dvc
