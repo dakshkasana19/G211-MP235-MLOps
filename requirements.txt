@@ -2,11 +2,11 @@
 # Shared requirements configuration
 
 # Core testing framework
-pytest>=8.0.0
+pytest==9.2.0
 
 # Numerical, array, and data manipulation (Daksh - monitoring / PSI foundation)
-numpy>=1.24.0
-pandas>=2.0.0
+numpy==2.5.5
+pandas==3.1.1
 
 # Model training, serialization, and experiment tracking
 PyYAML==6.0.3
